@@ -1,0 +1,16 @@
+d = 0
+for i in range(1,61):
+    a = i
+    for j in range(1,61):
+        b = j
+        for k in range(1,61):
+            c = k
+            prod = a*b*c
+            if prod == 60:
+                print(a,b,c)
+                d = d + 1
+                print(d)
+            else:
+                pass
+
+print(d)
